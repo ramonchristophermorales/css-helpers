@@ -3,7 +3,7 @@
  * version: 0.1.0
  */
 
-.no-pd {
+.no-0 {
   padding: 0 !important;
 }
 
@@ -47,6 +47,10 @@
   padding-left: 20px !important;
 }
 
+.pd-right-0 {
+  padding-right: 0 !important;
+}
+
 .pd-right-1 {
   padding-right: 1px !important;
 }
@@ -70,7 +74,6 @@
 .pd-right-30 {
   padding-right: 30px !important;
 }
-
 
 .pd-top-0 {
   padding-top: 0 !important;
@@ -118,7 +121,7 @@
 
 // margins
 
-.no-mr {
+.mr-0 {
   margin: 0 !important !important;
 }
 
@@ -303,12 +306,12 @@
   font-weight: bolder !important;
 }
 
-.text-medium {
-  font-size: 1em !important;
+.text-normal {
+  font-size: 1rem !important;
 }
 
 .text-double {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 // cursors
@@ -332,18 +335,11 @@
   display: block !important;
 }
 
-
-// tooltips
-
-.tooltip-success + .tooltip > .tooltip-inner {
-  background-color: #3c763d !important;
-}
-
-.tooltip-success + .tooltip > .tooltip-arrow {
-  border-bottom-color: #3c763d !important;
+.display-inline {
+  display: block !important;
 }
 
 // mouse hovers
-.mouse-cursor {
+.pointer-cursor {
   pointer:cursor !important;
 }
