@@ -202,7 +202,7 @@
   margin-bottom: 10px !important;
 }
 
-.mr-bottom-15 {
+.mr-bottom-15 {te
   margin-bottom: 15px !important;
 }
 
@@ -300,11 +300,11 @@
 }
 
 .text-2x {
-  font-size: 2rem;
+  font-size: 200% !important;
 }
 
 .text-3x {
-  font-size: 2rem;
+  font-size: 300% !important;
 }
 
 // cursors
