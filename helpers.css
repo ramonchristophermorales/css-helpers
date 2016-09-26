@@ -1,6 +1,6 @@
 /**
  * @author: Ramon Christopher Morales
- * version: 0.1.4
+ * version: 0.1.5
  */
 
 .pd-0, .no-pd {
@@ -104,9 +104,9 @@
 }
 
 
-// margins
+/* margins */
 
-.mr-0 {
+.no-mr, .mr-0 {
   margin: 0 !important !important;
 }
 
@@ -210,7 +210,7 @@
   margin-bottom: 20px !important;
 }
 
-// borders
+/* borders */
 
 .border-0, .no-border {
   border: none !important;
@@ -228,7 +228,8 @@
   border-radius: 0 !important;
 }
 
-// opacity
+/* opacity */
+
 .opacity-1 {
   opacity: 0.1 !important;
 }
@@ -269,7 +270,7 @@
   opacity: 1 !important;
 }
 
-// text
+/* text */
 
 .text-white {
   color: #ffffff !important;
@@ -307,12 +308,20 @@
   font-size: 300% !important;
 }
 
-// cursors
+.text-4x {
+  font-size: 400% !important;
+}
+
+.text-5x {
+  font-size: 500% !important;
+}
+
+/* cursors */
 .cursor-pointer {
   cursor: pointer !important;
 }
 
-// position
+/* position */
 .position-absolute {
   position: absolute !important;
 }
@@ -321,7 +330,8 @@
   position: absolute !important;
 }
 
-// width
+/* width */
+
 .width-full {
   width: 100% !important;
 }
@@ -330,8 +340,8 @@
   width: 100% !important;
 }
 
+/* height */
 
-// height
 .height-full {
   width: 100% !important;
 }
@@ -340,7 +350,7 @@
   width: 100% !important;
 }
 
-//displays
+/* displays */
 
 .display-block {
   display: block !important;
